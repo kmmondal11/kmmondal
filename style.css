@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding:0;
+    box-shadow: border-box;
+}
+body{
+    background: #070044;
+}
+.section_inner{
+    width: 1280px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+header{
+    background: #190e75;
+    width: 100%;
+    padding-left: 80px;
+}
+header .section_inner{
+    width: 1440px;
+}
+.header_left{
+    width: 25%;
+}
+.header_left img{
+    width: 100px;
+    height: 97px;
+    background-size: contain;
+}
+.header_right{
+    width: 50%;
+    margin-top: 30px;
+}
+.header_right ul{
+}
+.header_right ul li{
+    display: inline-block;
+    padding: 8px 44px 10px 30px;
+}
+.header_right ul li a{
+    display: block;
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+}
+.login_singup{
+    width: 25%;
+    margin-top: 44px;
+}
+.login_singup .btn{
+}
+.login_singup .btn a:hover{
+    text-decoration:none;
+}
+.login_singup .btn a span{
+     font-family: sans-serif;
+     font-size: 25px;
+     color: #fff;
+     text-align: left;
+     background: #9037E0;
+     font-weight: 500;
+     padding: 10px 30px 10px 30px;
+     border-radius: 100%;
+     text-shadow: 1px 1px 6px black;
+     }
+
+.km1{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.km1 .section_inner{
+    width: 960px;
+}
+.km1_top{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.km1_top h1{
+    color: #FC1978;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.km1_main{
+    width: 100%;
+    text-align: center;
+}
+#form{margin-left: -102px;}
+#form label{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+    padding-right: 8px;
+}
+#form input{padding: 15px 20px 15px 24px;outline: none;border-radius: 16px;width: 40%;font-size: 24px;}
+.form_btn{
+    background: unset;
+    border: none;
+}
+.form_btn a{}
+.form_btn a span{font-family: sans-serif;font-size: 25px;color: #fff;text-align: left;background: #9037E0;font-weight: 500;padding: 8px 30px 10px 30px;border-radius: 35px;}
+.form_btn a:hover{
+    text-decoration: none !important;
+    
+}
+
+.km2{
+    padding-top: 100px;
+}
+.km2 p{
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #fff;
+    text-align: justify;
+    padding-bottom: 49px;
+}
+.km2 article{}
+
+/*************************
+ Login -style - starts 
+ *************************/
+ main{
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.login{
+    width: 100%;
+    background-size: contain !important;
+    background-repeat: no-repeat !IMPORTANT;
+    margin: auto !important;
+    padding-bottom: 50px;
+}
+.login .section_inner{
+    width: 960px;
+    background-size: contain!important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    /* padding-top: 54px; */
+}
+.login_top{
+    width: 100%;
+    margin: auto;
+    padding-top: 34px;
+}
+.login_top span{
+    width: 100%;
+    height: 100%;
+    background-size: contain!important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    display: inline-block;
+}
+.login_top span img{width: 10%;opacity: 0;}
+.login_form{
+    width: 100%;
+}
+.login_form label{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 28px;
+    color: #ab5478;
+    font-weight: bold;
+}
+.login_form input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 15px 10px 16px 10px;
+    background: #FBE2A9;
+    opacity: 0.7;
+    font-size: 20px;
+    border: unset;
+    outline: none;
+    border-radius: 14px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.login_form input:hover{
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  background: #F6D0AB;
+  padding: 25px 25px;
+  border-radius: 50px;
+  transition: all 0.9s ease-in-out; 
+}
+.login_form input::placeholder{
+    color:#000;
+}
+
+.login_form button{
+    text-align: center;
+    margin: auto;
+    width: 18%;
+    display: block;
+    margin-top: 46px;
+    border: none;
+    background: #CB8EA0;
+    padding: 10px 1px 10px 1px;
+    border-radius: 22px;
+}
+.login_form button a{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #000;
+    padding: 9px 1px 1px 1px;
+}
+.login_form button a:hover{
+    text-decoration:none;
+}
+.login_form button a span{}
+
+
+
+
+
+
